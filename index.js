@@ -1,3 +1,43 @@
+window.onscroll = function (e) {
+    console.log(window.scrollY); // Value of scroll Y in px
+};
+
+$(window).scroll(function() {
+    var scroll = $(window).scrollTop();
+    if (scroll >= 2890 ) {
+      $(".nav-1").css("text-decoration", "line-through");
+    } else {
+      $(".nav-1").css("text-decoration", "none");
+    }
+    if (scroll >= 5981 ) {
+      $(".nav-2").css("text-decoration", "line-through");
+    } else {
+      $(".nav-2").css("text-decoration", "none");
+    }
+    if (scroll >= 7313 ) {
+      $(".nav-3").css("text-decoration", "line-through");
+    } else {
+      $(".nav-3").css("text-decoration", "none");
+    }
+
+
+
+    if (scroll >= 5371 && scroll <= 7313) {
+        $(".sidenav").css("background-color", "#17263c");
+        $(".nav-item").css("color", "#00ffa3");
+        $(".nav-3").css("border", "1px solid #C03F21");
+        $(".nav-item").css("font-family", "'IBM Plex Mono', monospace");
+        $(".nav-num").css("color", "#F82470");
+        $(".container-p").css("font-family", "'IBM Plex Mono', monospace");
+    } else {
+        $(".sidenav").css("background-color", "#ffffff");
+        $(".nav-item").css("color", "#161616");
+        $(".nav-item").css("font-family", "'Roboto Condensed', sans-serif");
+        $(".nav-num").css("color", "#d04040");
+        $(".container-p").css("font-family", " 'Roboto', sans-serif");
+          $(".nav-3").css("border", "none");
+    }
+});
 
 var map;
       function initMap() {

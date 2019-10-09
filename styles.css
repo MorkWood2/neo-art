@@ -25,7 +25,7 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
   align-items: center;
   justify-content: center;
 }
-h1 {
+.intro-caption {
   color: white;
   font-family: 'Nobile', sans-serif;
   font-size: 13vw;
@@ -110,12 +110,13 @@ h1 {
   padding-top: 140px;
 }
 
-.sidenav a {
+.nav-item {
   padding: 6px 8px 6px 16px;
   text-decoration: none;
-  font-size: 25px;
-  color: #e44a4a;
+  font-size: 15px;
+  color: #161616;
   display: block;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 .sidenav a:hover {
@@ -124,7 +125,7 @@ h1 {
 
 .container2{
   background: rgb(255, 255, 255);
-  border: 1px red solid;
+  /* border: 1px red solid; */
   max-width: 64rem;
   margin: 0rem auto;
   display: flex;
@@ -145,7 +146,7 @@ font-family: 'Roboto', sans-serif;
 }
 .container2 img{
   width: 100%;
-  max-width: 50%;
+  max-width: 65%;
   min-width: 400px;
   margin: 0 auto;
   border: 10px #fbc8ef solid;
@@ -159,7 +160,7 @@ font-family: 'Roboto', sans-serif;
 
 .container3{
   background: rgb(255, 255, 255);
-  border: 1px red solid;
+  /* border: 1px red solid; */
   max-width: 64rem;
   margin: 0rem auto;
   display: flex;
@@ -189,7 +190,7 @@ font-family: 'Roboto', sans-serif;
 
 .container4{
   background: rgb(255, 255, 255);
-  border: 1px red solid;
+  /* border: 1px red solid; */
   max-width: 64rem;
   margin: 0rem auto;
   display: flex;
@@ -215,17 +216,22 @@ font-family: 'Roboto', sans-serif;
   border: 10px #fbc8ef solid;
 
 }
+.coding-container{
+border-bottom: 2px solid #00ffa3;
+}
+.reflections-container{
+border-top: 2px solid #00ffa3;
+}
 .container5{
   background: #17263c;
   margin-left: 160px;
-  margin: 0rem auto;
   display: flex;
   flex-direction: column;
 
 }
 
 .container-p{
-  color: #405699;
+  color: #EFDAB9;
   font-size: 1.3rem;
   display: block;
   line-height: 1.5;
@@ -237,70 +243,118 @@ font-family: 'Roboto', sans-serif;
 
 #map {
         height: 500px;
-        width: 100%;
+        width: 80%;
         margin: 0 auto;
+        border: 1px solid #4adbc8;
       }
 
-.gm-style .gm-style-iw{
-  background: #252525 ;
-    border: 2px solid #4adbc8 ;
+.gm-style img {
+        max-width: 300px !important;
+        /* margin: 0 auto; */
+      }
+
+.nav-num{
+  font-family: 'Roboto Mono', monospace;
+  color: #d04040;
+
 }
-/* .gm-style .gm-style-iw {
-                  background-color: #252525 !important;
-                  top: 0 !important;
-                  left: 0 !important;
-                  width: 100% !important;
-                  min-height: 330px !important;
-                  padding-top: 30px;
-                  display: block !important;
-                  text-align: center !important;
-                  border: 2px solid #4adbc8 ;
-               }
-.gm-style .gm-style-iw-d {
-                   box-sizing: border-box;
-                   overflow: hidden !important;
-               } */
 
-.gm-ui-hover-effect {
-                 opacity: .6;
-                 background: #4adbc8 !important;
-             }
-               /*style the paragraph tag*/
-/* .gm-style .gm-style-iw #google-popup p{
-                  padding: 10px;
-                  color:#4adbc8;
-               } */
- .gm-style img {
-                   max-width: 400px;
-                   margin: 0 auto;
-               }
-
-#map > div > div > div:nth-child(1) > div:nth-child(3) > div > div:nth-child(4) > div > div:nth-child(1) > div:nth-child(2){
-        height: 0px !important;
-      }
-
-#map > div > div > div:nth-child(1) > div:nth-child(3) > div > div:nth-child(4) > div > button{
-        background: #4adbc8 !important;
-        right: -2px !important;
-      }
+.container6{
+  height: 1000px;
+}
 
 
+.rainbow{
+  text-decoration: none;
+  color: rgb(0, 255, 163);
+}
+
+.red{
+color: rgb(238, 62, 62)
+}
+.blue{
+  color: rgb(91, 156, 203)
+}
+.rainbow:hover {
+-webkit-animation:rainbow 1s infinite;
+-ms-animation:rainbow 1s infinite;
+-o-animation:rainbow 1s infinite;
+animation:rainbow 1s infinite;
+}
+@-webkit-keyframes rainbow {
+0% {color: #ff0000;}
+10% {color: #ff8000;}
+20% {color: #ffff00;}
+30% {color: #80ff00;}
+40% {color: #00ff00;}
+50% {color: #00ff80;}
+60% {color: #00ffff;}
+70% {color: #0080ff;}
+80% {color: #0000ff;}
+90% {color: #8000ff;}
+100% {color: #ff0080;}
+}
+@-ms-keyframes rainbow {
+0% {color: #ff0000;}
+10% {color: #ff8000;}
+20% {color: #ffff00;}
+30% {color: #80ff00;}
+40% {color: #00ff00;}
+50% {color: #00ff80;}
+60% {color: #00ffff;}
+70% {color: #0080ff;}
+80% {color: #0000ff;}
+90% {color: #8000ff;}
+100% {color: #ff0080;}
+}
+@-o-keyframes rainbow {
+0% {color: #ff0000;}
+10% {color: #ff8000;}
+20% {color: #ffff00;}
+30% {color: #80ff00;}
+40% {color: #00ff00;}
+50% {color: #00ff80;}
+60% {color: #00ffff;}
+70% {color: #0080ff;}
+80% {color: #0000ff;}
+90% {color: #8000ff;}
+100% {color: #ff0080;}
+}
+@keyframes rainbow {
+0% {color: #ff0000;}
+10% {color: #ff8000;}
+20% {color: #ffff00;}
+30% {color: #80ff00;}
+40% {color: #00ff00;}
+50% {color: #00ff80;}
+60% {color: #00ffff;}
+70% {color: #0080ff;}
+80% {color: #0000ff;}
+90% {color: #8000ff;}
+100% {color: #ff0080;}
+}
 
 
-/* .grid {
-	position: absolute;
-  margin: auto;
-  top: 17%;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  width: 610px;
-} */
+
+
+
+
+
+
+
+
+
 
 @media only screen and (max-width: 1350px) {
 
   .sidenav {
     display: none;
-  }
 
+  }
+  .container5{
+    margin-left: 0;
+    margin: 0rem auto;
+
+
+  }
 }

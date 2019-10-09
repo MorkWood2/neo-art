@@ -1,11 +1,36 @@
 <!DOCTYPE html>
+<html>
+<!--
+         _       _    _    _        _
+        / /\    / /\ /\ \ /\ \     /\_\
+       / / /   / / //  \ \\ \ \   / / /
+      / /_/   / / // /\ \ \\ \ \_/ / /
+     / /\ \__/ / // / /\ \_\\ \___/ /
+    / /\ \___\/ // /_/_ \/_/ \ \ \_/
+   / / /\/___/ // /____/\     \ \ \
+  / / /   / / // /\____\/      \ \ \
+ / / /   / / // / /______       \ \ \
+/ / /   / / // / /_______\       \ \_\
+\/_/    \/_/ \/__________/        \/_/
+
+
+      "Hey" It says.
+
+      Welcome, if you're here to check out this source code you rock.
+
+      <==================================>
+
+      Feel free to say hey and drop me an email @ Markwild189@gmail.com
+-->
+
+<!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed|IBM+Plex+Mono|Roboto+Mono&display=swap" rel="stylesheet">
     <meta charset="utf-8">
     <script type="text/javascript" src="index.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script
     <title></title>
   </head>
   <body>
@@ -13,37 +38,37 @@
     <div class="video-container">
       <video class="video " src="videos/Street_Art.mp4" autoplay  loop = "loop" muted = " muted"></video>
       <div class="overlay-desc">
-          <h1>Art_Project_2</h1>
+          <h1 class = "intro-caption">Art_Project_2</h1>
       </div>
     </div>
 
 
 <!-- nav -->
 <div class="sidenav">
-  <a href="#about">Intro <span>1</span> </a>
-  <a href="#services">Idea <span>2</span></a>
-  <a href="#clients">Coding <span>3</span></a>
-  <a href="#contact">reflections <span>4</span></a>
+  <a href="#about" class="nav-item nav-1"><span class = "nav-num">01</span> INTRO  </a>
+  <a href="#services" class="nav-item nav-2"><span class = "nav-num">02</span> IDEA </a>
+  <a href="#clients" class="nav-item nav-3"><span class = "nav-num">03</span> CODING </a>
+  <a href="#contact" class="nav-item nav-4"><span class = "nav-num">04</span> REFLECTIONS </a>
 </div>
 
 <!-- content -->
 <div class="container2">
-  <p>Sesame snaps gummies dragée topping toffee jelly tiramisu cotton candy. Croissant gingerbread chocolate bar pudding icing cake cheesecake. Cotton candy chocolate cake cake cupcake tart gingerbread ice cream liquorice candy canes.</p>
+  <p>Graf·fi·ti, as they call it, is a term that originated in italy in the 19th centery word  <i>graffio</i>  ‘a scratch’. Sure cheapens something as beautiful and eloquent as this: </p>
   <img src="images/axl4l8n50zq31.jpg" alt="Street Art in London">
-  <div class="img-caption1">
-   Its an art to convey self aware irony....
+  <div class="img-caption1 ">
+   The self awareness of this irony is killing me . . . 
   </div>
 
-  <p>Sesame snaps gummies dragée topping toffee jelly tiramisu cotton candy. Croissant gingerbread chocolate bar pudding icing cake cheesecake. Cotton candy chocolate cake cake cupcake tart gingerbread ice cream liquorice candy canes. Caramels dessert chocolate bear claw sesame snaps candy lollipop apple pie. Cotton candy danish apple pie. Jelly tart oat cake danish soufflé ice cream jujubes. Cheesecake ice cream powder.</p>
+  <p>It’s a game of <span class="blue">cat</span> and <span class="red">mouse</span>. Get caught, spend 100 hours in community service or five years in a state prison.  Croissant gingerbread chocolate bar pudding icing cake cheesecake. Cotton candy chocolate cake cake cupcake tart gingerbread ice cream liquorice candy canes. Caramels dessert chocolate bear claw sesame snaps candy lollipop apple pie. Cotton candy danish apple pie. Jelly tart oat cake danish soufflé ice cream jujubes. Cheesecake ice cream powder.</p>
   <img src="videos/ezgif.com-gif-to-mp4.gif" alt="gif of graffiti">
   <p>Sesame snaps gummies dragée topping toffee jelly tiramisu cotton candy. Croissant gingerbread chocolate bar pudding icing cake cheesecake. Cotton candy chocolate cake cake cupcake tart gingerbread ice cream liquorice candy canes.</p>
 
 </div>
 <div class="video-container">
 
-  <video class="video " src="videos/Ideas.mp4" autoplay loop = "loop" muted = " muted"></video>
+  <video class="video " src="videos/idea.mp4" autoplay loop = "loop" muted = " muted"></video>
   <div class="overlay-desc">
-      <h1>Idea</h1>
+      <h1 class = "intro-caption" >Idea</h1>
   </div>
 </div>
 <div class="testimonial_container">
@@ -71,11 +96,11 @@
 
   <p>Sesame snaps gummies dragée topping toffee jelly tiramisu cotton candy. Croissant gingerbread chocolate bar pudding icing cake cheesecake. Cotton candy chocolate cake cake cupcake tart gingerbread ice cream liquorice candy canes. Caramels dessert chocolate bear claw sesame snaps candy lollipop apple pie. Cotton candy danish apple pie. Jelly tart oat cake danish soufflé ice cream jujubes. Cheesecake ice cream powder.</p>
 </div>
-<div class="video-container">
+<div class="video-container coding-container">
 
   <video class="video " src="videos/Hello-World.mp4" autoplay loop = "loop" muted = " muted"></video>
   <div class="overlay-desc">
-      <h1>Coding</h1>
+      <h1 class = "intro-caption" >Coding</h1>
   </div>
 </div>
 <div class="container5">
@@ -84,15 +109,18 @@
 
 <div id="map"></div>
 
-  <p class = "container-p">Sesame snaps gummies dragée topping toffee jelly tiramisu cotton candy. Croissant gingerbread chocolate bar pudding icing cake cheesecake. Cotton candy chocolate cake cake cupcake tart gingerbread ice cream liquorice candy canes. Caramels dessert chocolate bear claw sesame snaps candy lollipop apple pie. Cotton candy danish apple pie. Jelly tart oat cake danish soufflé ice cream jujubes. Cheesecake ice cream powder.</p>
+  <p class = "container-p">Sesame snaps gummies dragée topping toffee jelly tiramisu cotton candy. Croissant gingerbread chocolate bar pudding icing cake cheesecake. Cotton candy chocolate cake cake cupcake tart gingerbread ice cream liquorice candy canes. Caramels dessert chocolate bear claw sesame snaps candy lollipop apple pie. Cotton candy danish apple pie. <a class="rainbow" href="https://streetartsf.com">streetartsf.com</a>, and <a class="rainbow" href="https://localwiki.org/oakland">localwiki.org/oakland</a>.</p>
 </div>
 
-<div class="video-container">
+<div class="video-container reflections-container">
 
   <video class="video " src="videos/Night-Traffic.mp4" autoplay loop = "loop" muted = " muted"></video>
   <div class="overlay-desc">
-      <h1>Reflections</h1>
+      <h1 class = "intro-caption" >Reflections</h1>
   </div>
+</div>
+<div class="container6">
+
 </div>
 
 <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyClsfvSYqBj-F5efWF5IPrAMOnHungt6vo&callback=initMap"
