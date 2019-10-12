@@ -83,6 +83,8 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 	-moz-box-shadow: 6px 6px 14px -5px rgba(0,0,0,0.75);
 	box-shadow: 6px 6px 14px -5px rgba(0,0,0,0.75);
 	display: flex;
+  align-items: center;
+  justify-content: center;
 
 }
 
@@ -467,8 +469,8 @@ animation:rainbow 1s infinite;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  border: 10px #fbc8ef solid;
-  box-shadow: 5px 6px 0px #c8d3fb;
+  border: 10px #c8c8fb solid;
+  box-shadow: 5px 6px 0px #fbc8c8;
 
 }
 .img-tile{
