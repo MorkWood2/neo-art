@@ -27,12 +27,21 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 }
 .intro-caption {
   color: white;
-  font-family: 'Nobile', sans-serif;
+  /* font-family: 'Nobile', sans-serif; */
   font-size: 13vw;
   text-align: center;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
+.coding-caption{
+  font-family: 'Monda', sans-serif;
+}
+.idea-caption{
+  font-family: 'Arvo', serif;
+}
+.reflection-caption{
+  font-family: 'Roboto Mono', monospace;
+}
 .testimonial_container{
 	height: 940px;
   position: relative;
@@ -92,6 +101,7 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
   font-size: 20px;
   padding: 0 5%;
   line-height: 30px;
+  font-weight: bold;
 }
 
 .sidenav {
