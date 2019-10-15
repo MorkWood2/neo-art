@@ -22,7 +22,7 @@ $(window).scroll(function() {
 
 
 
-    if (scroll >= 5371 && scroll <= 7313) {
+    if (scroll >= 5664 && scroll <= 7680) {
         $(".sidenav").css("background-color", "#17263c");
         $(".nav-item").css("color", "#00ffa3");
         $(".nav-3").css("border", "1px solid #C03F21");
@@ -36,6 +36,12 @@ $(window).scroll(function() {
         $(".nav-num").css("color", "#d04040");
         $(".container-p").css("font-family", " 'Roboto', sans-serif");
           $(".nav-3").css("border", "none");
+    }
+
+    if(scroll > 7684){
+        $(".sidenav").css("display", "none");
+    } else {
+        $(".sidenav").css("display", "block");
     }
 });
 

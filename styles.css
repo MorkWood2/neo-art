@@ -546,7 +546,8 @@ figcaption{
 } */
 .author-container{
   height: 120px;
-  width: 50%;
+  min-width: 254px;
+  width: 40%;
   border-radius: 4px;
   margin: 0 auto;
   display: flex;
@@ -594,12 +595,20 @@ padding: 0;
 .splitter2 img{
 height: 40px;
 padding-right: 10px;
-/* margin: 0 auto; */
 }
+.splitter2 p{
+padding: 0 0 0 2px;
+font-size: 15px;
+}
+/* .splitter2 img:hover{
+background: yellow;
+height: 40px;
+padding-right: 10px;
+} */
 @media only screen and (max-width: 1350px) {
 
   .sidenav {
-    display: none;
+    display: none !important;
 
   }
   .container5{
