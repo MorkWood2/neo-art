@@ -81,8 +81,6 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 }
 
 .testimonial_box{
-	/* top: 24px;
-	position: relative; */
 	border-radius: 10px;
 	width: 80%;
 	margin: 0 auto;
@@ -139,15 +137,14 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 
 }
 
-.container2 p {
-font-size: 1.3rem;
-color: #0c0d0C;
-display: block;
-line-height: 1.5;
-margin: 0 auto;
-padding: 6.5rem 5.8rem;
-font-family: 'Roboto', sans-serif;
-
+.content-container p {
+  font-size: 1.3rem;
+  color: #0c0d0C;
+  display: block;
+  line-height: 1.5;
+  margin: 0 auto;
+  padding: 6.5rem 5.8rem;
+  font-family: 'Roboto', sans-serif;
 }
 .container2 img{
   width: 100%;
@@ -176,16 +173,6 @@ font-family: 'Roboto', sans-serif;
 
 }
 
-.container3 p {
-font-size: 1.3rem;
-color: #0c0d0C;
-display: block;
-line-height: 1.5;
-margin: 0 auto;
-padding: 6.5rem 5.8rem;
-font-family: 'Roboto', sans-serif;
-
-}
 .container3 img{
   width: 100%;
   max-width: 10%;
@@ -205,37 +192,20 @@ font-family: 'Roboto', sans-serif;
 
 
 }
-.container4 p {
-font-size: 1.3rem;
-color: #0c0d0C;
-display: block;
-line-height: 1.5;
-margin: 0 auto;
-padding: 6.5rem 5.8rem;
-font-family: 'Roboto', sans-serif;
 
-}
-/* .container4 img{
-  width: 100%;
-  max-width: 40%;
-  min-width: 200px;
-  margin: 0 auto;
-  border: 10px #fbc8ef solid;
-  box-shadow: 5px 6px 0px #c8d3fb;
-
-} */
 .coding-container{
 border-bottom: 2px solid #00ffa3;
 }
+
 .reflections-container{
 border-top: 2px solid #00ffa3;
 }
+
 .container5{
   background: #17263c;
   margin-left: 160px;
   display: flex;
   flex-direction: column;
-
 }
 
 .container-p{
@@ -246,9 +216,7 @@ border-top: 2px solid #00ffa3;
   margin: 0 auto;
   width: 80%;
   padding: 5.8rem 0;
-  /* padding: 6.5rem 5.8rem; */
   font-family: 'Roboto', sans-serif;
-
 }
 
 #map {
@@ -260,7 +228,6 @@ border-top: 2px solid #00ffa3;
 
 .gm-style img {
         max-width: 300px !important;
-        /* margin: 0 auto; */
       }
 
 .nav-num{
@@ -278,18 +245,22 @@ border-top: 2px solid #00ffa3;
   padding-bottom: 50px;
 }
 
-.container6 p {
-font-size: 1.3rem;
-color: #0c0d0C;
-display: block;
-line-height: 1.5;
-margin: 0 auto;
-padding: 6.5rem 5.8rem;
-font-family: 'Roboto', sans-serif;
 
+.outro{
+  font-size: 1.3rem;
+  color: #0c0d0C;
+  display: block;
+  line-height: 1.5;
+  margin: 0 auto;
+  padding: 6.5rem 5.8rem 0 5.8rem ;
+  font-family: 'Roboto', sans-serif;
 }
-
-
+.outro:nth-of-type(2){
+  padding-bottom: 140px;
+}
+.outro a {
+  color: rgb(41, 155, 238);
+}
 .rainbow{
   text-decoration: none;
   color: rgb(0, 255, 163);
@@ -521,39 +492,6 @@ figcaption{
   background-color: white !important;
 }
 
-/* .author{
-  height: 120px;
-  width: 50%;
-  margin: 0 auto;
-  border-radius: 4px;
-  display: flex;
-  justify-content: flex-start;
-  background-color: #F7F7F7;
-  -webkit-box-shadow: 3px 3px 9px 0px rgba(184,184,184,1);
-  -moz-box-shadow: 3px 3px 9px 0px rgba(184,184,184,1);
-  box-shadow: 3px 3px 9px 0px rgba(184,184,184,1);
-}
-.author-top{
-  height: 50%;
-  background-image: url("images/pipes.png");
-  background-repeat: repeat;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.author-top p{
-
-  font-size: 15px;
-}
-.author-bottom{
-  height: 50%;
-  border: 1px solid black
-}
-.author img{
-  height: 100%;
-  border-radius: inherit;
-} */
 .author-container{
   height: 120px;
   min-width: 254px;
@@ -578,20 +516,14 @@ figcaption{
   flex-direction:column;
 
 }
-/* .author-desc img{
-  margin: 0 auto;
-  height: 49px;
-} */
+
 .splitter{
   height: 50%;
-  /* background-image: url("images/pipes.png");
-  background-repeat: repeat; */
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .splitter p {
-/* margin: 0 auto; */
 padding: 0;
 }
 .splitter2{
@@ -609,12 +541,10 @@ padding-right: 10px;
 .splitter2 p{
 padding: 0 0 0 2px;
 font-size: 15px;
+margin: 0 auto;
 }
-/* .splitter2 img:hover{
-background: yellow;
-height: 40px;
-padding-right: 10px;
-} */
+
+
 @media only screen and (max-width: 1350px) {
 
   .sidenav {
