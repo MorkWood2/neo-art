@@ -1,3 +1,2 @@
-# neo-art
-###### A practice in design and function
+# Art_Project_2
 🔥Public art project 🔥
