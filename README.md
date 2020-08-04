@@ -1,3 +1,10 @@
-# Art_Project_2
-Inspired by the streets of Oakland, California. This project is a practice of design and function. 
 
+![project_image](https://markwild.dev/static/media/project1.b76451ee.png)
+
+# ART_PROJECT_2
+
+A practice in Art & Design. 
+
+## Description
+
+A webpage that documents some of my favorite public art in the Bay Area using Google Maps Api.
